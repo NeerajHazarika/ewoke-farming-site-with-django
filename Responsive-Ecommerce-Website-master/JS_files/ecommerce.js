@@ -14,9 +14,9 @@ $(document).ready(function(){
     $(window). scroll(function(){
         var scroll = $(window). scrollTop();
         if (scroll > 0) {
-        $("#top-containt"). css("background" , "rgb(233, 233, 233)");
+        $("#top-containt"). css("background" , "green");
         }
         else{
-        $("#top-containt"). css("background" , "white");}})
+        $("#top-containt"). css("background" , "green");}})
     $('.parallax-window').parallax({imageSrc: 'desktop-1.jpg'});
 });
